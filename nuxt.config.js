@@ -1,6 +1,19 @@
 
 module.exports = {
   mode: 'spa',
+
+
+
+  /*
+  ** API
+  */
+  env: {
+    fakerApiBaseUrl: 'https://jsonplaceholder.typicode.com',
+    imdbApiBaseUrl: 'https://movie-database-imdb-alternative.p.rapidapi.com',
+  },
+
+
+
   /*
   ** Headers of the page
   */
@@ -15,20 +28,32 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+
+
+
   /*
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+
+
+
   /*
   ** Global CSS
   */
   css: [
   ],
+
+
+
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
   ],
+
+
+
   /*
   ** Nuxt.js modules
   */
@@ -39,12 +64,18 @@ module.exports = {
     '@nuxtjs/axios',
     //'@nuxtjs/eslint-module'
   ],
+
+
+
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
   },
+
+
+
   /*
   ** Build configuration
   */
